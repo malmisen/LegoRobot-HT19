@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <string.h>
+#include "brick.h"
+#include <unistd.h>
+#include "ev3.h"
+#include "ev3_light.h"
+#include "crc32.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "modp_numtoa.h"
+#include "ev3.h"
+#include "ev3_link.h"
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "modp_numtoa.h"
+#include "ev3.h"
+#include "ev3_port.h"
+#include "ev3_dc.h"
+#include <string.h>
+#include <stdio.h>
+#include "ev3.h"
+#include "ev3_led.h"
+#include <stdio.h>
+#include "ev3.h"
+#include "ev3_led.h"
+#include "ev3_light.h"
+#include <stdlib.h>
+#include <signal.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <limits.h>
+#include <dirent.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <sys/un.h>
+#include <arpa/inet.h>
+#include "ev3_link.h"
+#include "../ev3_both.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "modp_numtoa.h"
+#include "ev3.h"
+#include "ev3_port.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "modp_numtoa.h"
+#include "crc32.h"
+#include "ev3.h"
+#include "ev3_port.h"
+#include "ev3_sensor.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "modp_numtoa.h"
+#include "ev3.h"
+#include "ev3_port.h"
+#include "ev3_servo.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "modp_numtoa.h"
+#include "ev3.h"
+#include "ev3_port.h"
+#include "ev3_tacho.h"
+
+#else
+#include <unistd.h>
+#define Sleep( msec ) usleep(( msec ) * 1000 )
+#endif
+
+int main( void )
+
+{
+    return ( 0 );
+}
