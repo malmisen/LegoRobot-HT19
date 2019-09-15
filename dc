@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <unistd.h>
+
+int main( void )
+
+{
+
+uint8_t sn, sn_port;
+uint8_t port = OUTPUT_B;
+
+ev3_init();
+
+ev3_dc_init();
+
+    {
+    set_dc_command_inx( sn, DC_RUN_FOREVER );
+    }
+
+ev3_uninit();
+
+    return 0;
+}
